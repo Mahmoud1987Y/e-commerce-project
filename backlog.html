@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>eCommerce Project Backlog</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid #ddd;
+      }
+      th,
+      td {
+        padding: 10px;
+        text-align: left;
+      }
+      th {
+        background-color: #f4f4f4;
+      }
+      h1 {
+        text-align: center;
+      }
+      h2 {
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>eCommerce Project Backlog</h1>
+
+    <h2>1. Project Initiation</h2>
+    <p>
+      No specific backlog items. Focus is on setup, planning, and team assembly.
+    </p>
+
+    <h2>2. Sprint 0: Database Design</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>User Story</th>
+          <th>Tasks</th>
+          <th>Priority</th>
+          <th>Estimate</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>DB1</td>
+          <td>
+            As a developer, I need to design the database schema for users,
+            products, and orders so that we can store and manage data
+            efficiently.
+          </td>
+          <td>
+            - Define entities and relationships<br />
+            - Create ER diagrams<br />
+            - Implement schema in development<br />
+            - Test database setup<br />
+            - Document schema design
+          </td>
+          <td>High</td>
+          <td>8 Story Points</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>3. Sprint 1: Backend User Management</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>User Story</th>
+          <th>Tasks</th>
+          <th>Priority</th>
+          <th>Estimate</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>UM1</td>
+          <td>
+            As a user, I want to register for an account so that I can log in
+            and use the site.
+          </td>
+          <td>
+            - Design database schema for user accounts<br />
+            - Implement API endpoint for user registration<br />
+            - Create UI form for user registration<br />
+            - Write unit tests
+          </td>
+          <td>High</td>
+          <td>8 Story Points</td>
+        </tr>
+        <tr>
+          <td>UM2</td>
+          <td>As a user, I want to log in so that I can access my account.</td>
+          <td>
+            - Implement login API<br />
+            - Create login UI<br />
+            - Implement authentication<br />
+            - Write tests
+          </td>
+          <td>High</td>
+          <td>5 Story Points</td>
+        </tr>
+        <tr>
+          <td>UM3</td>
+          <td>
+            As a user, I want to manage my profile so that I can update my
+            personal information.
+          </td>
+          <td>
+            - Develop API for profile management<br />
+            - Create profile management UI<br />
+            - Implement profile update logic<br />
+            - Write tests
+          </td>
+          <td>Medium</td>
+          <td>8 Story Points</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>4. Sprint 2: Backend Product Management</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>User Story</th>
+          <th>Tasks</th>
+          <th>Priority</th>
+          <th>Estimate</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>PM1</td>
+          <td>
+            As a customer, I want to browse products so that I can find what I’m
+            looking for.
+          </td>
+          <td>
+            - Develop product catalog API<br />
+            - Implement product search<br />
+            - Create product listing UI<br />
+            - Write tests
+          </td>
+          <td>High</td>
+          <td>13 Story Points</td>
+        </tr>
+        <tr>
+          <td>PM2</td>
+          <td>
+            As an admin, I want to add and update products so that the product
+            catalog stays current.
+          </td>
+          <td>
+            - Develop API for product management<br />
+            - Create admin UI for product management<br />
+            - Implement product update functionality<br />
+            - Write tests
+          </td>
+          <td>Medium</td>
+          <td>13 Story Points</td>
+        </tr>
+        <tr>
+          <td>PM3</td>
+          <td>
+            As a customer, I want to view product details so that I can make
+            informed purchasing decisions.
+          </td>
+          <td>
+            - Develop API for product details<br />
+            - Create product detail UI<br />
+            - Integrate with catalog<br />
+            - Write tests
+          </td>
+          <td>High</td>
+          <td>8 Story Points</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>5. Sprint 3: Backend Shopping Cart</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>User Story</th>
+          <th>Tasks</th>
+          <th>Priority</th>
+          <th>Estimate</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>SC1</td>
+          <td>
+            As a customer, I want to add items to my cart so that I can purchase
+            them later.
+          </td>
+          <td>
+            - Develop API for shopping cart management<br />
+            - Implement cart persistence<br />
+            - Create cart UI<br />
+            - Write tests
+          </td>
+          <td>High</td>
+          <td>8 Story Points</td>
+        </tr>
+        <tr>
+          <td>SC2</td>
+          <td>
+            As a customer, I want to view and update my cart so that I can
+            adjust my order before checkout.
+          </td>
+          <td>
+            - Develop API for cart updates<br />
+            - Implement cart update functionality<br />
+            - Create cart review UI<br />
+            - Write tests
+          </td>
+          <td>Medium</td>
+          <td>8 Story Points</td>
+        </tr>
+        <tr>
+          <td>SC3</td>
+          <td>
+            As a customer, I want to remove items from my cart so that I can
+            adjust my order as needed.
+          </td>
+          <td>
+            - Develop API for item removal<br />
+            - Implement removal functionality<br />
+            - Update cart UI<br />
+            - Write tests
+          </td>
+          <td>Medium</td>
+          <td>5 Story Points</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>6. Sprint 4: Backend Order Management</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>User Story</th>
+          <th>Tasks</th>
+          <th>Priority</th>
+          <th>Estimate</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>OM1</td>
+          <td>
+            As a customer, I want to complete my purchase so that I can receive
+            my items.
+          </td>
+          <td>
+            - Develop API for order processing<br />
+            - Implement checkout logic<br />
+            - Integrate with cart<br />
+            - Write tests
+          </td>
+          <td>High</td>
+          <td>13 Story Points</td>
+        </tr>
+        <tr>
+          <td>OM2</td>
+          <td>
+            As a customer, I want to view my order history so that I can track
+            my past purchases.
+          </td>
+          <td>
+            - Develop API for order history<br />
+            - Create order history UI<br />
+            - Integrate with user account<br />
+            - Write tests
+          </td>
+          <td>Medium</td>
+          <td>8 Story Points</td>
+        </tr>
+        <tr>
+          <td>OM3</td>
+          <td>
+            As an admin, I want to manage orders so that I can track and fulfill
+            them.
+          </td>
+          <td>
+            - Develop admin API for order management<br />
+            - Create admin UI for order management<br />
+            - Implement order status tracking<br />
+            - Write tests
+          </td>
+          <td>Medium</td>
+          <td>13 Story Points</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>7. Sprint 5: Backend Payment Integration</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>User Story</th>
+          <th>Tasks</th>
+          <th>Priority</th>
+          <th>Estimate</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>PI1</td>
+          <td>
+            As a customer, I want to make payments securely so that I can
+            complete my purchase.
+          </td>
+          <td>
+            - Integrate payment gateway<br />
+            - Develop payment API<br />
+            - Implement payment validation<br />
+            - Write tests
+          </td>
+          <td>High</td>
+          <td>13 Story Points</td>
+        </tr>
+        <tr>
+          <td>PI2</td>
+          <td>
+            As a customer, I want to receive a confirmation of my payment so
+            that I know it was successful.
+          </td>
+          <td>
+            - Implement payment confirmation functionality<br />
+            - Create payment confirmation UI<br />
+            - Integrate with order processing<br />
+            - Write tests
+          </td>
+          <td>Medium</td>
+          <td>8 Story Points</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>8. Sprint 6: Backend Administration and Reporting</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>User Story</th>
+          <th>Tasks</th>
+          <th>Priority</th>
+          <th>Estimate</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>AR1</td>
+          <td>
+            As an admin, I want to generate reports so that I can analyze sales
+            and user activity.
+          </td>
+          <td>
+            - Develop API for reporting<br />
+            - Implement reporting features<br />
+            - Create admin reporting UI<br />
+            - Write tests
+          </td>
+          <td>Medium</td>
+          <td>13 Story Points</td>
+        </tr>
+        <tr>
+          <td>AR2</td>
+          <td>
+            As an admin, I want to manage users so that I can handle user
+            accounts and permissions.
+          </td>
+          <td>
+            - Develop admin API for user management<br />
+            - Create UI for user management<br />
+            - Implement user role and permission features<br />
+            - Write tests
+          </td>
+          <td>Medium</td>
+          <td>13 Story Points</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>9. Sprint 7: Final Testing and Refinements</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>User Story</th>
+          <th>Tasks</th>
+          <th>Priority</th>
+          <th>Estimate</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>FT1</td>
+          <td>
+            As a tester, I want to perform comprehensive testing so that the
+            application is stable and performs well.
+          </td>
+          <td>
+            - Conduct functional testing<br />
+            - Perform integration testing<br />
+            - Execute performance testing<br />
+            - Fix identified bugs
+          </td>
+          <td>High</td>
+          <td>13 Story Points</td>
+        </tr>
+        <tr>
+          <td>FT2</td>
+          <td>
+            As a developer, I want to polish the UI/UX based on feedback so that
+            the website is user-friendly.
+          </td>
+          <td>
+            - Review and refine UI/UX<br />
+            - Implement design improvements<br />
+            - Conduct user feedback sessions<br />
+            - Update documentation
+          </td>
+          <td>Medium</td>
+          <td>8 Story Points</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>10. Deployment and Post-Deployment Support</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>User Story</th>
+          <th>Tasks</th>
+          <th>Priority</th>
+          <th>Estimate</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>DP1</td>
+          <td>
+            As a DevOps engineer, I want to deploy the website to production so
+            that it is live for users.
+          </td>
+          <td>
+            - Prepare deployment environment<br />
+            - Deploy website<br />
+            - Conduct post-deployment checks<br />
+            - Monitor for issues
+          </td>
+          <td>High</td>
+          <td>5 Story Points</td>
+        </tr>
+        <tr>
+          <td>DP2</td>
+          <td>
+            As a support team member, I want to provide post-deployment support
+            so that any issues are addressed promptly.
+          </td>
+          <td>
+            - Provide initial support<br />
+            - Address post-deployment issues<br />
+            - Collect user feedback<br />
+            - Implement hotfixes if needed
+          </td>
+          <td>Medium</td>
+          <td>5 Story Points</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>11. Post-Launch Review and Iteration</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>User Story</th>
+          <th>Tasks</th>
+          <th>Priority</th>
+          <th>Estimate</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>PR1</td>
+          <td>
+            As a product manager, I want to review the project and gather
+            feedback so that future improvements can be planned.
+          </td>
+          <td>
+            - Collect and analyze user feedback<br />
+            - Review project performance<br />
+            - Plan future enhancements<br />
+            - Update backlog
+          </td>
+          <td>Medium</td>
+          <td>8 Story Points</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
